@@ -1,0 +1,10 @@
+
+GET http:127.0.0.1:8080/products
+Content-Type: application/json
+Authorization: Bearer 2026-02-20T00:31:02.016Z
+
+
+GET http:127.0.0.1:8080/product/09
+Content-Type: application/json
+Authorization: Bearer 2026-02-20T00:31:02.016Z
+
