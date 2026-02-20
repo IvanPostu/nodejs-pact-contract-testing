@@ -1,15 +1,13 @@
 {
   "name": "nodejs-pact-contract-testing",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
+    "postinstall": "concurrently \"npm ci --prefix consumer\" \"npm ci --prefix provider\"",
     "start": "concurrently \"npm start --prefix provider\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "concurrently": "^9.2.1"
   }
