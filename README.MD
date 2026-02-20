@@ -1,11 +1,14 @@
 # nodejs-pact-contract-testing
 
-Consumer driven contract testing
+Consumer driven contract testing demo.
 
 ## Terminology
 
-- Consumer
-- Provider
+- Consumer - client
+- Provider - server
+- Contract broker - registry for contracts
+  - functionality: push/pull contract
+  - visible to both consumer and provider
 
 ## Shell
 
@@ -18,6 +21,10 @@ docker-compose -p demo1 down
 # 8000 - pact broker
 
 npm init -y
+
+# in $PROJECT_ROOT
+npm i
+# will trigger `postinstall`
 ```
 
 ## Overview
