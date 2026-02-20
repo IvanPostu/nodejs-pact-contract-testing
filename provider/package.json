@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jest",
     "test:pact": "jest --testTimeout 30000 --testMatch \"**/*.pact.test.js\""
   },
   "keywords": [],
